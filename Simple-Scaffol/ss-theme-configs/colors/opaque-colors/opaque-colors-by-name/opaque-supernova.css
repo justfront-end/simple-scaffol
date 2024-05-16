@@ -1,0 +1,30 @@
+:root {
+
+	/* Base color */
+	--ss-supernova: #f3c600;
+
+	--ss-opaque-supernova-000: #ffffff;
+	--ss-opaque-supernova-001: #fef9e5;
+	--ss-opaque-supernova-002: #fdf4cc;
+	--ss-opaque-supernova-003: #fbeeb2;
+	--ss-opaque-supernova-004: #fae899;
+	--ss-opaque-supernova-005: #f9e27f;
+	--ss-opaque-supernova-006: #f8dd66;
+	--ss-opaque-supernova-007: #f7d64c;
+	--ss-opaque-supernova-008: #f5d133;
+	--ss-opaque-supernova-009: #f4cb19;
+	--ss-opaque-supernova-010: #f3c600; /* Base */
+	--ss-opaque-supernova-011: #dbb200;
+	--ss-opaque-supernova-012: #c29e00;
+	--ss-opaque-supernova-013: #ab8a00;
+	--ss-opaque-supernova-014: #927700;
+	--ss-opaque-supernova-015: #7a6300;
+	--ss-opaque-supernova-016: #614f00;
+	--ss-opaque-supernova-017: #493c00;
+	--ss-opaque-supernova-018: #312800;
+	--ss-opaque-supernova-019: #191400;
+	--ss-opaque-supernova-020: #000000;
+
+}
+
+

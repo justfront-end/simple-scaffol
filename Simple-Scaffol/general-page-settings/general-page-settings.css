@@ -1,0 +1,20 @@
+
+
+
+.simple-scaffol label:has(input) {
+	margin-left: 1rem;
+}
+
+
+.simple-scaffol label:has(input):hover {
+	cursor: pointer;
+}
+
+.simple-scaffol label > input {
+	margin-right: .25rem;
+}
+
+
+.simple-scaffol label:has(input):first-of-type {
+	margin-left: 0;
+}

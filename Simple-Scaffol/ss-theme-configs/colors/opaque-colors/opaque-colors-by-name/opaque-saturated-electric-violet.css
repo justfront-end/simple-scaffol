@@ -1,0 +1,49 @@
+:root {
+
+	/* Base color */
+	--ss-electric-violet: #5533ff;
+
+	/* 
+	# Saturation (S+100_L+100)(S+100_L-100) */
+	--ss-opaque-saturated-electric-violet-000: #ffffff;
+	--ss-opaque-saturated-electric-violet-001: #eeeaff;
+	--ss-opaque-saturated-electric-violet-002: #ddd6ff;
+	--ss-opaque-saturated-electric-violet-003: #ccc1ff;
+	--ss-opaque-saturated-electric-violet-004: #bbadff;
+	--ss-opaque-saturated-electric-violet-005: #aa99ff;
+	--ss-opaque-saturated-electric-violet-006: #9985ff;
+	--ss-opaque-saturated-electric-violet-007: #8870ff;
+	--ss-opaque-saturated-electric-violet-008: #775cff;
+	--ss-opaque-saturated-electric-violet-009: #6647ff;
+	--ss-opaque-saturated-electric-violet-010: #5533ff; /* Base */
+	--ss-opaque-saturated-electric-violet-011: #4624ef;
+	--ss-opaque-saturated-electric-violet-012: #3615df;
+	--ss-opaque-saturated-electric-violet-013: #2806d1;
+	--ss-opaque-saturated-electric-violet-014: #1e00b8;
+	--ss-opaque-saturated-electric-violet-015: #1a009a;
+	--ss-opaque-saturated-electric-violet-016: #15007a;
+	--ss-opaque-saturated-electric-violet-017: #10005c;
+	--ss-opaque-saturated-electric-violet-018: #0a003d;
+	--ss-opaque-saturated-electric-violet-019: #06001f;
+	--ss-opaque-saturated-electric-violet-020: #000000;
+
+
+
+	/* This works, but it doesn't result in what you want. It works, but then has it's own dilemmas. 
+		The lightness (L) you still need to figure out. And for some reason, it doesn't really 
+		give the same results that I'm seeing in Photoshop.
+	*/
+	/*
+	--ss-base-blue: 250, 80%;
+	--ss-opaque-dark-blue: hsla(var(--ss-base-blue), 35%, 100%);
+	*/
+
+	/*
+		H     S    L     A
+	:hsla( 120, 100%, 50%, 0.3 );
+	*/
+
+
+}
+
+

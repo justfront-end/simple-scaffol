@@ -1,0 +1,47 @@
+
+:root {
+
+	/*
+	# White */
+	--ss-transparent-white-0000: rgba(255, 255, 255, .0);
+	--ss-transparent-white-0001: rgba(255, 255, 255, .01);
+	--ss-transparent-white-0002: rgba(255, 255, 255, .02);
+	--ss-transparent-white-0003: rgba(255, 255, 255, .03);
+	--ss-transparent-white-0004: rgba(255, 255, 255, .04);
+	--ss-transparent-white-0005: rgba(255, 255, 255, .05);
+	--ss-transparent-white-0006: rgba(255, 255, 255, .06);
+	--ss-transparent-white-0007: rgba(255, 255, 255, .07);
+	--ss-transparent-white-0008: rgba(255, 255, 255, .08);
+	--ss-transparent-white-0009: rgba(255, 255, 255, .09);
+	--ss-transparent-white-0010: rgba(255, 255, 255, .1);
+	--ss-transparent-white-0011: rgba(255, 255, 255, .11);
+	--ss-transparent-white-0012: rgba(255, 255, 255, .12);
+	--ss-transparent-white-0013: rgba(255, 255, 255, .13);
+	--ss-transparent-white-0014: rgba(255, 255, 255, .14);
+	--ss-transparent-white-0015: rgba(255, 255, 255, .15);
+
+	--ss-transparent-white-0020: rgba(255, 255, 255, .2);
+	--ss-transparent-white-0030: rgba(255, 255, 255, .3);
+	--ss-transparent-white-0040: rgba(255, 255, 255, .4);
+	--ss-transparent-white-0050: rgba(255, 255, 255, .5);
+	--ss-transparent-white-0060: rgba(255, 255, 255, .6);
+	--ss-transparent-white-0070: rgba(255, 255, 255, .7);
+	--ss-transparent-white-0080: rgba(255, 255, 255, .8);
+
+	--ss-transparent-white-0085: rgba(255, 255, 255, .85);
+	--ss-transparent-white-0086: rgba(255, 255, 255, .86);
+	--ss-transparent-white-0087: rgba(255, 255, 255, .87);
+	--ss-transparent-white-0088: rgba(255, 255, 255, .88);
+	--ss-transparent-white-0089: rgba(255, 255, 255, .89);
+	--ss-transparent-white-0090: rgba(255, 255, 255, .9);
+	--ss-transparent-white-0091: rgba(255, 255, 255, .91);
+	--ss-transparent-white-0092: rgba(255, 255, 255, .92);
+	--ss-transparent-white-0093: rgba(255, 255, 255, .93);
+	--ss-transparent-white-0094: rgba(255, 255, 255, .94);
+	--ss-transparent-white-0095: rgba(255, 255, 255, .95);
+	--ss-transparent-white-0096: rgba(255, 255, 255, .96);
+	--ss-transparent-white-0097: rgba(255, 255, 255, .97);
+	--ss-transparent-white-0098: rgba(255, 255, 255, .98);
+	--ss-transparent-white-0099: rgba(255, 255, 255, .99);
+	--ss-transparent-white-0100: rgba(255, 255, 255, 1);
+}

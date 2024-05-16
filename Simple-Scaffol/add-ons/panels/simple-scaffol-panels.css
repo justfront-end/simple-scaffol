@@ -1,0 +1,103 @@
+/* 
+
+	Simple Scaffol Panels
+
+	SS Panels are an add-on to the Simple Scaffol library.
+
+	Notes:
+	- SS Panels requires the Simple Scaffol 2.0, Panels in not a stand alone.
+	- SS Panels has a dependency on Bootstrap 5x
+
+	- Panels go directly inside of an ss-column
+
+	- A SS Panel takes the spot of a SS Compartment
+		For example, a SS Compartment goes directly 
+		inside of a ss-column. We could replace the SS Compartment 
+		with a SS Panel. 
+
+	- SS Panel can use SS Compartment's padding modifiers.
+*/
+
+/* 
+	Bootstrap's structure:
+	.accordion
+		.accordion-item
+			.accordion-header
+				.accordion-button || .accordion-button.collapsed
+
+			.accordion-collapse.collapse || .accordion-collapse.collapse.show || .accordion-collapse.collapsing (animation)
+
+				.accordion-body
+
+*/
+
+.accordion.ss-accordion {
+	--bs-accordion-btn-icon-width: 1rem;
+}
+
+
+
+/* */
+
+.accordion.ss-accordion .accordion-item {
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+
+	border-radius: 0 !important;
+
+	background-color: transparent;
+}
+
+	.accordion.ss-accordion .accordion-header {
+		line-height: 1;
+	}
+
+		.accordion.ss-accordion .accordion-button {
+			border-radius: 0 !important;
+
+			padding: calc(var(--simple-scaffol-base-unit) * 1.25);
+			padding-bottom: 0.875rem;
+			padding-top: 0.875rem;
+
+			background-color: transparent;
+		}
+
+		.accordion.ss-accordion .accordion-button:not(.collapsed) {
+		
+			box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--simple-scaffol-transparent-shade-3);
+	
+			color: initial;
+			background-color: transparent;
+		}
+
+
+	.accordion.ss-accordion .accordion-collapse {		
+	}
+
+		.accordion.ss-accordion .accordion-body {
+			/* padding: var(--simple-scaffol-base-unit); */
+
+			padding: calc(var(--simple-scaffol-base-unit) * 1.25);
+		}
+
+
+/* */
+
+.accordion-item.ss-accordion-item--distinct .accordion-button {
+	font-weight: 700;
+}
+
+/* */
+
+.accordion-item.ss-accordion-item--prominent .accordion-button {
+	font-weight: 700;
+	/* background-color: var(--ss-trans-black__1-e); */
+	background-color: var(--simple-scaffol-transparent-shade-2);
+}
+.accordion-item.ss-accordion-item--dominant .accordion-button {
+	font-weight: 700;
+	color: #ffffff;
+
+	background-color: var(--ss-trans-black__4-e);
+}

@@ -1,0 +1,698 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/**************************************************************************************************/
+/*
+********
+********
+********
+*/
+/* > NOTES: START
+***************************************************************************************************/
+
+/* NOTES: END
+***************************************************************************************************/
+/*
+********
+********
+********
+*/
+/* > GENERAL SETTINGS: START
+***************************************************************************************************/
+
+/* GENERAL SETTINGS: END
+***************************************************************************************************/
+/*
+********
+********
+********
+*/
+/* > SIMPLE SCAFFOL: START
+***************************************************************************************************/
+
+/* 
+# Configurable variables for Simple Scaffol	*/
+/* 
+	Map the variables below in however you like. 
+	You can reference variables in the "ss-theme-config" folder,
+	or import in your own variables. Just replace them accordingly.
+*/
+
+
+
+
+
+
+/* 
+# SS Compartment */
+	.ss-compartment {
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;
+
+		background-color: var(--simple-scaffol-opaque-shade-0);
+		padding: var(--simple-scaffol-base-unit);
+
+		border-style: solid;
+		border-width: 1px;
+		border-color: var(--simple-scaffol-transparent-shade-2);
+
+		flex-grow: 1;
+    		flex-basis: 0;
+
+		height: 100%;
+	}
+
+	/* 
+	## Feature constructions */
+		/* 
+		### Alternating nesting color */
+			.ss-compartment 
+			.ss-compartment {
+				background-color: var(--simple-scaffol-opaque-shade-1);
+			}
+
+			.ss-compartment 
+			.ss-compartment 
+			.ss-compartment {
+				background-color: var(--simple-scaffol-opaque-shade-0);
+			}
+
+			.ss-compartment 
+			.ss-compartment 
+			.ss-compartment 
+			.ss-compartment {
+				background-color: var(--simple-scaffol-opaque-shade-1);
+			}
+
+			.ss-compartment 
+			.ss-compartment 
+			.ss-compartment 
+			.ss-compartment 
+			.ss-compartment {
+				background-color: var(--simple-scaffol-opaque-shade-0);
+			}
+
+		/* 
+		### Modifier for offsetting nesting color */
+			.ss-compartment--nest-offset.ss-compartment {
+				background-color: var(--simple-scaffol-opaque-shade-1);
+			}
+
+			.ss-compartment--nest-offset.ss-compartment 
+			.ss-compartment {
+				background-color: var(--simple-scaffol-opaque-shade-0);
+			}
+
+			.ss-compartment--nest-offset.ss-compartment 
+			.ss-compartment 
+			.ss-compartment {
+				background-color: var(--simple-scaffol-opaque-shade-1);
+			}
+
+			.ss-compartment--nest-offset.ss-compartment 
+			.ss-compartment 
+			.ss-compartment 
+			.ss-compartment {
+				background-color: var(--simple-scaffol-opaque-shade-0);
+			}
+
+			.ss-compartment--nest-offset.ss-compartment 
+			.ss-compartment 
+			.ss-compartment 
+			.ss-compartment 
+			.ss-compartment {
+				background-color: var(--simple-scaffol-opaque-shade-1);
+			}
+
+	/* 
+	## SS Content Container */
+		.ss-content-container {
+			display: block;
+		}
+
+	/* 
+	## SS Compartment Container */
+		.ss-compartment-container {
+			display: block;
+			height: 100%;
+		}
+
+		/* 
+		Even though the following modifier doesn't affect the 
+		compartment container, but instead affects the nested columns,
+		I'm still organizing the code here under this compartment container. 
+
+		Since, it's a modifier that's "applied" to the compartment container.
+		*/
+
+		/* 
+		### Column Margin */
+			.ss-compartment-container.ss-compartment-container__column--super-tight-margin 
+				> .ss-row > .ss-column {
+				margin: calc( var(--simple-scaffol-base-unit) / 16 );
+			}
+			.ss-compartment-container.ss-compartment-container__column--tight-margin 
+				> .ss-row > .ss-column {
+				margin: calc( var(--simple-scaffol-base-unit) / 8 );
+			}
+			.ss-compartment-container.ss-compartment-container__column--regular-margin 
+				> .ss-row > .ss-column {
+				margin: calc( var(--simple-scaffol-base-unit) / 2 );
+			}
+			.ss-compartment-container.ss-compartment-container__column--fat-margin 
+				> .ss-row > .ss-column {
+				/* margin: calc( var(--simple-scaffol-base-unit) * 4 ); */
+				margin: var(--simple-scaffol-base-unit);
+			}
+			.ss-compartment-container.ss-compartment-container__column--black-margin 
+				> .ss-row > .ss-column {
+				/* margin: calc( var(--simple-scaffol-base-unit) * 8 ); */
+				margin: calc( var(--simple-scaffol-base-unit) * 2 );
+			}
+			.ss-compartment-container.ss-compartment-container__column--super-black-margin 
+				> .ss-row > .ss-column {
+				/* margin: calc( var(--simple-scaffol-base-unit) * 16 ); */
+				margin: calc( var(--simple-scaffol-base-unit) * 4 );
+			}
+
+
+		/* 
+		### Collapsed border */
+			.ss-compartment-container.ss-compartment-container--collapsed-border 
+				> .ss-row > .ss-column {
+				margin: 0;
+			}
+			.ss-compartment-container.ss-compartment-container--collapsed-border 
+				> .ss-row > .ss-column > .ss-compartment {
+				border-bottom-width: 0;
+				border-right-width: 0;
+			}
+			.ss-compartment-container.ss-compartment-container--collapsed-border 
+				> .ss-row > .ss-column:last-child > .ss-compartment {
+				border-right-width: 1px;
+			}
+
+			.ss-compartment-container.ss-compartment-container--collapsed-border 
+				> .ss-row:last-child > .ss-column > .ss-compartment {
+				border-bottom-width: 1px;
+			}
+
+	/* 
+	## Shared Components */	
+		/* 
+		### SS Row */
+			.ss-row {
+				display: flex;
+				flex-direction: row;
+
+				height: 100%;
+			}
+
+			/* 
+			#### Box frame modifier */
+			.ss-row.ss-row--box-frame {
+				padding: var(--simple-scaffol-base-unit);
+				margin: calc( var(--simple-scaffol-base-unit) / 2 );
+
+				border-style: solid;
+				border-width: 1px;
+				
+				border-color: var(--simple-scaffol-transparent-shade-2);
+			}
+
+		/* 
+		### SS Column */
+			.ss-column {
+				display: block;
+				flex-grow: 1;
+				flex-basis: 0;
+				margin: calc( var(--simple-scaffol-base-unit) / 2 );
+			}
+
+	/* 
+	## Modifiers */
+		/* 
+		### Compartment Padding */
+			.ss-compartment--super-tight-padding {
+				padding: calc( var(--simple-scaffol-base-unit) / 8 ) !important;
+			}
+			.ss-compartment--tight-padding {
+				padding: calc( var(--simple-scaffol-base-unit) / 4) !important;	
+			}
+			.ss-compartment--regular-padding {
+				padding: var(--simple-scaffol-base-unit) !important;
+			}
+			.ss-compartment--fat-padding {
+				padding: calc( var(--simple-scaffol-base-unit) * 2) !important;
+			}
+			.ss-compartment--black-padding {
+				padding: calc( var(--simple-scaffol-base-unit) * 4) !important;
+			}
+			.ss-compartment--super-black-padding {
+				padding: calc( var(--simple-scaffol-base-unit) * 8) !important;
+			}
+
+
+/* SIMPLE SCAFFOL: END
+***************************************************************************************************/
+/*
+********
+********
+********
+*/
+/* > SS REGIONS: START
+***************************************************************************************************/
+/*
+	Notes:
+	Regions are used for grouping sets of simple scaffol compartments.
+	
+	# Variants - Region variants
+
+		Regions come in three variants, which affect the look and feel of the 
+		compartmentalization of the groupings.
+
+		Variants:
+		- Pop Region
+		- Flat Region
+		- Pin Region	(default)
+
+*/
+
+/* 
+# SS Column Region Root */
+	.ss-column-region-root {
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;
+
+		flex-grow: 1;
+		flex-basis: 0;
+
+		background-color: var(--simple-scaffol-opaque-shade-5);
+	}
+
+		.ss-column-region-root > .ss-row-region {
+			margin-left: 1px;
+			margin-right: 1px;
+			margin-bottom: 1px;
+		}
+		.ss-column-region-root > .ss-column-region {
+			margin-left: 1px;
+			margin-right: 1px;
+			margin-bottom: 1px;
+		}
+
+		.ss-column-region-root > .ss-row-region:first-child {
+			margin-top: 1px;
+		}
+		.ss-column-region-root > .ss-column-region:first-child {
+			margin-top: 1px;
+		}
+			.ss-column-region-root > .ss-row-region .ss-column-region,
+			.ss-column-region-root > .ss-row-region .ss-row-region {
+				margin: 1px;
+			}
+
+			.ss-column-region-root > .ss-column-region .ss-row-region,
+			.ss-column-region-root > .ss-column-region .ss-column-region {
+				margin: 1px;
+			}
+
+
+/* 
+# SS Row Region Root */
+	.ss-row-region-root {
+		display: flex;
+		flex-direction: row;
+		box-sizing: border-box;
+
+		flex-grow: 1;
+		flex-basis: 0;
+
+		background-color: var(--simple-scaffol-opaque-shade-5);
+		
+	}
+
+		.ss-row-region-root > .ss-row-region {
+			margin-top: 1px;
+			margin-bottom: 1px;
+			margin-right: 1px;
+		}
+		.ss-row-region-root > .ss-column-region {
+			margin-top: 1px;
+			margin-bottom: 1px;
+			margin-right: 1px;
+		}
+
+		.ss-row-region-root > .ss-row-region:first-child {
+			margin-left: 1px;
+		}
+		.ss-row-region-root > .ss-column-region:first-child {
+			margin-left: 1px;
+		}
+
+
+			.ss-row-region-root > .ss-row-region .ss-column-region,
+			.ss-row-region-root > .ss-row-region .ss-row-region {
+				margin: 1px;
+			}
+
+			.ss-row-region-root > .ss-column-region .ss-row-region,
+			.ss-row-region-root > .ss-column-region .ss-column-region {
+				margin: 1px;
+			}
+
+/* 
+# SS Column Region */
+	.ss-column-region {
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;
+
+		flex-grow: 1;
+		flex-basis: 0;
+	}
+
+	.ss-column-region > .ss-compartment {
+		border-left-width: 0;
+		border-right-width: 0;
+
+		border-top-width: 0;
+	}
+
+	.ss-column-region > .ss-compartment:last-child {
+		border-bottom-width: 0;
+	}
+
+/* 
+# SS Row Region */
+	.ss-row-region {
+		display: flex;
+		flex-direction: row;
+		box-sizing: border-box;
+
+		flex-grow: 1;
+		flex-basis: 0;
+	}
+
+	.ss-row-region > .ss-compartment {
+		border-top-width: 0;
+		border-bottom-width: 0;
+		border-left-width: 0;
+	}
+
+	.ss-row-region > .ss-compartment:last-child {
+		border-right-width: 0;
+	}
+
+
+
+/* 
+# Variants - Region variants */
+
+	/* 
+	## Flat Region */
+
+		/* Adding borders back to the compartments */
+		.ss-row-region-root.ss-row-region-root--flat-region .ss-column-region > .ss-compartment,
+		.ss-column-region-root.ss-column-region-root--flat-region .ss-column-region > .ss-compartment {
+			border-bottom-width: 1px;
+			border-left-width: 1px;
+			border-right-width: 1px;
+			border-top-width: 0;
+		}
+
+		.ss-row-region-root.ss-row-region-root--flat-region .ss-column-region > .ss-compartment:first-child,
+		.ss-column-region-root.ss-column-region-root--flat-region .ss-column-region > .ss-compartment:first-child {
+			border-top-width: 1px;
+		}
+
+
+		.ss-row-region-root.ss-row-region-root--flat-region .ss-row-region > .ss-compartment,
+		.ss-column-region-root.ss-column-region-root--flat-region .ss-row-region > .ss-compartment {
+			border-top-width: 1px;
+			border-bottom-width: 1px;
+			border-right-width: 1px;
+			border-left-width: 0;
+		}
+
+		.ss-row-region-root.ss-row-region-root--flat-region .ss-row-region > .ss-compartment:first-child,
+		.ss-column-region-root.ss-column-region-root--flat-region .ss-row-region > .ss-compartment:first-child {
+			border-left-width: 1px;
+		}
+
+
+		/* */
+		.ss-column-region-root.ss-column-region-root--flat-region {
+			background-color: var(--simple-scaffol-opaque-shade-1);
+		}
+
+			.ss-column-region-root.ss-column-region-root--flat-region > .ss-row-region {
+				margin-left: 4px;
+				margin-right: 4px;
+				margin-bottom: 4px;
+			}
+			.ss-column-region-root.ss-column-region-root--flat-region > .ss-column-region {
+				margin-left: 4px;
+				margin-right: 4px;
+				margin-bottom: 4px;
+			}
+
+			.ss-column-region-root.ss-column-region-root--flat-region > .ss-row-region:first-child {
+				margin-top: 4px;
+			}
+			.ss-column-region-root.ss-column-region-root--flat-region > .ss-column-region:first-child {
+				margin-top: 4px;
+			}
+				.ss-column-region-root.ss-column-region-root--flat-region > .ss-row-region .ss-column-region,
+				.ss-column-region-root.ss-column-region-root--flat-region > .ss-row-region .ss-row-region {
+					margin: 4px;
+				}
+
+				.ss-column-region-root.ss-column-region-root--flat-region > .ss-column-region .ss-row-region,
+				.ss-column-region-root.ss-column-region-root--flat-region > .ss-column-region .ss-column-region {
+					margin: 4px;
+				}
+
+
+		/* */
+		.ss-row-region-root.ss-row-region-root--flat-region {
+			display: flex;
+			flex-direction: row;
+			box-sizing: border-box;
+
+			flex-grow: 1;
+			flex-basis: 0;
+
+			background-color: var(--simple-scaffol-opaque-shade-1);
+		}
+
+			.ss-row-region-root.ss-row-region-root--flat-region > .ss-row-region {
+				margin-top: 4px;
+				margin-bottom: 4px;
+				margin-right: 4px;
+			}
+			.ss-row-region-root.ss-row-region-root--flat-region > .ss-column-region {
+				margin-top: 4px;
+				margin-bottom: 1px;
+				margin-right: 4px;
+			}
+
+			.ss-row-region-root.ss-row-region-root--flat-region > .ss-row-region:first-child {
+				margin-left: 4px;
+			}
+			.ss-row-region-root.ss-row-region-root--flat-region > .ss-column-region:first-child {
+				margin-left: 4px;
+			}
+
+
+				.ss-row-region-root.ss-row-region-root--flat-region > .ss-row-region .ss-column-region,
+				.ss-row-region-root.ss-row-region-root--flat-region > .ss-row-region .ss-row-region {
+					margin: 4px;
+				}
+
+				.ss-row-region-root.ss-row-region-root--flat-region > .ss-column-region .ss-row-region,
+				.ss-row-region-root.ss-row-region-root--flat-region > .ss-column-region .ss-column-region {
+					margin: 4px;
+				}
+
+
+	/* 
+	## Pop Region */
+
+		.ss-row-region-root.ss-row-region-root--pop-region .ss-column-region > .ss-compartment,
+		.ss-column-region-root.ss-column-region-root--pop-region .ss-column-region > .ss-compartment {
+			border-bottom-width: 1px;
+			border-left-width: 1px;
+			border-right-width: 1px;
+			border-top-width: 0;
+		}
+
+		.ss-row-region-root.ss-row-region-root--pop-region .ss-row-region > .ss-compartment,
+		.ss-column-region-root.ss-column-region-root--pop-region .ss-row-region > .ss-compartment {
+			border-top-width: 1px;
+			border-bottom-width: 1px;
+			border-right-width: 1px;
+			border-left-width: 0;
+		}
+
+		
+		/* Setting perimeter of pop: START */
+		.ss-row-region-root.ss-row-region-root--pop-region .ss-row-region > .ss-compartment,
+		.ss-column-region-root.ss-column-region-root--pop-region .ss-row-region > .ss-compartment {
+			border-top-width: 1px;
+			border-bottom-width: 1px;
+
+
+			border-top-color: var(--simple-scaffol-opaque-shade-5);
+			border-bottom-color: var(--simple-scaffol-opaque-shade-5);
+		}
+
+		.ss-row-region-root.ss-row-region-root--pop-region .ss-row-region > .ss-compartment:first-child,
+		.ss-column-region-root.ss-column-region-root--pop-region .ss-row-region > .ss-compartment:first-child {
+			border-left-width: 1px;
+			border-left-color: var(--simple-scaffol-opaque-shade-5);
+		}
+
+		.ss-row-region-root.ss-row-region-root--pop-region .ss-row-region > .ss-compartment:last-child,
+		.ss-column-region-root.ss-column-region-root--pop-region .ss-row-region > .ss-compartment:last-child {
+			border-right-width: 1px;
+			border-right-color: var(--simple-scaffol-opaque-shade-5);
+		}
+
+
+		/* */
+
+		.ss-row-region-root.ss-row-region-root--pop-region .ss-column-region > .ss-compartment,
+		.ss-column-region-root.ss-column-region-root--pop-region .ss-column-region > .ss-compartment {
+			border-left-width: 1px;
+			border-right-width: 1px;
+
+
+			border-left-color: var(--simple-scaffol-opaque-shade-5);
+			border-right-color: var(--simple-scaffol-opaque-shade-5);
+		}
+
+
+		.ss-row-region-root.ss-row-region-root--pop-region .ss-column-region > .ss-compartment:first-child,
+		.ss-column-region-root.ss-column-region-root--pop-region .ss-column-region > .ss-compartment:first-child {
+			border-top-width: 1px;
+			border-top-color: var(--simple-scaffol-opaque-shade-5);	
+		}
+
+		.ss-row-region-root.ss-row-region-root--pop-region .ss-column-region > .ss-compartment:last-child,
+		.ss-column-region-root.ss-column-region-root--pop-region .ss-column-region > .ss-compartment:last-child {
+			border-bottom-width: 1px;
+			border-bottom-color: var(--simple-scaffol-opaque-shade-5);		
+		}
+
+
+		/* Setting perimeter of pop: END */
+
+
+		/* */
+		.ss-column-region-root.ss-column-region-root--pop-region {
+			background-color: var(--simple-scaffol-opaque-shade-1);
+		}
+
+			.ss-column-region-root.ss-column-region-root--pop-region > .ss-row-region {
+				margin-left: 4px;
+				margin-right: 4px;
+				margin-bottom: 4px;
+			}
+			.ss-column-region-root.ss-column-region-root--pop-region > .ss-column-region {
+				margin-left: 4px;
+				margin-right: 4px;
+				margin-bottom: 4px;
+			}
+
+			.ss-column-region-root.ss-column-region-root--pop-region > .ss-row-region:first-child {
+				margin-top: 4px;
+			}
+			.ss-column-region-root.ss-column-region-root--pop-region > .ss-column-region:first-child {
+				margin-top: 4px;
+			}
+				.ss-column-region-root.ss-column-region-root--pop-region > .ss-row-region .ss-column-region,
+				.ss-column-region-root.ss-column-region-root--pop-region > .ss-row-region .ss-row-region {
+					margin: 4px;
+				}
+
+				.ss-column-region-root.ss-column-region-root--pop-region > .ss-column-region .ss-row-region,
+				.ss-column-region-root.ss-column-region-root--pop-region > .ss-column-region .ss-column-region {
+					margin: 4px;
+				}
+
+
+		/* */
+		.ss-row-region-root.ss-row-region-root--pop-region {
+			display: flex;
+			flex-direction: row;
+			box-sizing: border-box;
+
+			flex-grow: 1;
+			flex-basis: 0;
+
+			background-color: var(--simple-scaffol-opaque-shade-1);
+		}
+
+			.ss-row-region-root.ss-row-region-root--pop-region > .ss-row-region {
+				margin-top: 4px;
+				margin-bottom: 4px;
+				margin-right: 4px;
+			}
+			.ss-row-region-root.ss-row-region-root--pop-region > .ss-column-region {
+				margin-top: 4px;
+				margin-bottom: 1px;
+				margin-right: 4px;
+			}
+
+			.ss-row-region-root.ss-row-region-root--pop-region > .ss-row-region:first-child {
+				margin-left: 4px;
+			}
+			.ss-row-region-root.ss-row-region-root--pop-region > .ss-column-region:first-child {
+				margin-left: 4px;
+			}
+
+
+				.ss-row-region-root.ss-row-region-root--pop-region > .ss-row-region .ss-column-region,
+				.ss-row-region-root.ss-row-region-root--pop-region > .ss-row-region .ss-row-region {
+					margin: 4px;
+				}
+
+				.ss-row-region-root.ss-row-region-root--pop-region > .ss-column-region .ss-row-region,
+				.ss-row-region-root.ss-row-region-root--pop-region > .ss-column-region .ss-column-region {
+					margin: 4px;
+				}
+
+/* SS REGIONS: END
+***************************************************************************************************/
+
+/* 
+# Demo Helpers */
+/* ss-demo-helpers.css - Put these into their own file, one day. */
+.ss-demo-helper__labeled-page-break {
+	display: block;
+	padding-top: 2.5rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding-bottom: 1.5rem;
+
+	background-color: var(--simple-scaffol-opaque-shade-1);
+}
+
+
+	.ss-labeled-page-break__label {
+		display: block;
+		font-size: 1rem;
+		font-weight: 400;
+	}
+
+	.ss-labeled-page-break__label-description {
+		display: block;
+		font-size: .875rem;
+		font-weight: 400;
+		opacity: .67;
+	}

@@ -1,0 +1,21 @@
+
+:root {
+	/*
+		Monza
+		215, 0, 7
+	*/
+	--ss-transparent-monza-0000: rgba(215, 0, 7, .0);
+
+	--ss-transparent-monza-0003: rgba(215, 0, 7, .03);
+
+	--ss-transparent-monza-0010: rgba(215, 0, 7, .1);
+	--ss-transparent-monza-0020: rgba(215, 0, 7, .2);
+	--ss-transparent-monza-0030: rgba(215, 0, 7, .3);
+	--ss-transparent-monza-0040: rgba(215, 0, 7, .4);
+	--ss-transparent-monza-0050: rgba(215, 0, 7, .5);
+	--ss-transparent-monza-0060: rgba(215, 0, 7, .6);
+	--ss-transparent-monza-0070: rgba(215, 0, 7, .7);
+	--ss-transparent-monza-0080: rgba(215, 0, 7, .8);
+	--ss-transparent-monza-0090: rgba(215, 0, 7, .9);
+	--ss-transparent-monza-0100: rgba(215, 0, 7, 1);
+}

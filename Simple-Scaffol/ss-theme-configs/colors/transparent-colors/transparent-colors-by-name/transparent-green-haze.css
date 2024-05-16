@@ -1,0 +1,21 @@
+
+:root {
+	/*
+		Green Haze
+		0, 168, 56
+	*/
+	--ss-transparent-green-haze-0000: rgba(0, 168, 56, .0);
+
+	--ss-transparent-green-haze-0003: rgba(0, 168, 56, .03);
+
+	--ss-transparent-green-haze-0010: rgba(0, 168, 56, .1);
+	--ss-transparent-green-haze-0020: rgba(0, 168, 56, .2);
+	--ss-transparent-green-haze-0030: rgba(0, 168, 56, .3);
+	--ss-transparent-green-haze-0040: rgba(0, 168, 56, .4);
+	--ss-transparent-green-haze-0050: rgba(0, 168, 56, .5);
+	--ss-transparent-green-haze-0060: rgba(0, 168, 56, .6);
+	--ss-transparent-green-haze-0070: rgba(0, 168, 56, .7);
+	--ss-transparent-green-haze-0080: rgba(0, 168, 56, .8);
+	--ss-transparent-green-haze-0090: rgba(0, 168, 56, .9);
+	--ss-transparent-green-haze-0100: rgba(0, 168, 56, 1);
+}

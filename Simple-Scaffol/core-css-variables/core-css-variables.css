@@ -1,0 +1,114 @@
+:root {
+
+	/*
+		Let's think about units and scale for a moment.
+
+		Scales that we need:
+			- Base sizes for anything for the UI
+			- Text sizes (for any kind of text)
+			- Transparent shades of black
+			- Opaque shades of black/white
+			
+
+		Let's think about scales for text.
+
+			Our black shades we have a finite start and finish point. 
+			We go from 0 to 100. 
+			But we can't do that for text.
+
+			So... 
+
+			For headings, what we've done were use the flat/sharp idea,
+			and it worked in headings, becuase we had a specific start and end point.
+
+			The start was the previous heading's size and end was the current heading's size.
+
+			hmmm....
+
+			We have the 1-E-AND-A in 4/4 timing system.
+			And we have the flat/sharp system.
+
+
+			Let's use a base text size for a starting point. And then 
+			scale up or down. We can then use flat/sharp system.
+
+			Out text sizes are just a scale. They don't reflect any specific heading 
+			level. It's up to the heading level's to pick one of the notes from 
+			the scale.
+
+			If we start at 16:
+
+				We use 1.333 when we scale up.
+				But use .75 when we scale down.
+
+
+
+
+	*/
+
+	/* Change this to whatever px unit you like, if you don't want it relative to rem. */
+	--simple-scaffol-base-unit: 1rem;
+	
+	/* */
+	/* --simple-scaffol-base-copy-unit: 16px; */
+	--ss-base-text-size: 16px;
+
+		--ss-base-text-size__plus-1: calc(var(--ss-base-text-size) * 1.3333);
+
+		--ss-base-text-size__plus-2: calc(var(--ss-base-text-size__plus-1) * 1.3333);
+		--ss-base-text-size__plus-3: calc(var(--ss-base-text-size__plus-2) * 1.3333);
+		--ss-base-text-size__plus-4: calc(var(--ss-base-text-size__plus-3) * 1.3333);
+		--ss-base-text-size__plus-5: calc(var(--ss-base-text-size__plus-4) * 1.3333);
+		--ss-base-text-size__plus-6: calc(var(--ss-base-text-size__plus-5) * 1.3333);
+
+
+		--ss-base-text-size__minus-1: calc(var(--ss-base-text-size) * .75);
+		--ss-base-text-size__minus-2: calc(var(--ss-base-text-size__minus-1) * .75);
+		--ss-base-text-size__minus-3: calc(var(--ss-base-text-size__minus-2) * .75);
+		--ss-base-text-size__minus-4: calc(var(--ss-base-text-size__minus-3) * .75);
+
+		/*
+		We could then do flats and sharps. We can just use sharps, no need to use both flats and sharps.
+		One or the other will work.
+
+			Examples:
+
+			--ss-base-text-size__sharp
+
+			--ss-base-text-size__minus-1__sharp
+
+		*/
+
+
+	/* */
+
+	--simple-scaffol-copy__flat: calc( var(--simple-scaffol-base-copy-unit) * .9375 );
+	--simple-scaffol-copy__double-flat: calc( var(--simple-scaffol-base-copy-unit) * .875 );
+	--simple-scaffol-copy__triple-flat: calc( var(--simple-scaffol-base-copy-unit) * .8125 );
+
+
+	/* Scales like a drum sequence. 1-E-AND-A in 4/4 timing. */
+	--ss-trans-black__start: rgba(0, 0, 0, 0);
+
+	--ss-trans-black__1: rgba(0, 0, 0, .01);
+	--ss-trans-black__1-e: rgba(0, 0, 0, .0725);
+	--ss-trans-black__1-and: rgba(0, 0, 0, .135);
+	--ss-trans-black__1-a: rgba(0, 0, 0, .1975);
+
+	--ss-trans-black__2: rgba(0, 0, 0, .26);
+	--ss-trans-black__2-e: rgba(0, 0, 0, .3225);
+	--ss-trans-black__2-and: rgba(0, 0, 0, .385);
+	--ss-trans-black__2-a: rgba(0, 0, 0, .4475);
+
+	--ss-trans-black__3: rgba(0, 0, 0, .51);
+	--ss-trans-black__3-e: rgba(0, 0, 0, .5725);
+	--ss-trans-black__3-and: rgba(0, 0, 0, .635);
+	--ss-trans-black__3-a: rgba(0, 0, 0, .6975);
+
+	--ss-trans-black__4: rgba(0, 0, 0, .76);
+	--ss-trans-black__4-e: rgba(0, 0, 0, .8225);
+	--ss-trans-black__4-and: rgba(0, 0, 0, .885);
+	--ss-trans-black__4-a: rgba(0, 0, 0, .9475);
+
+	--ss-trans-black__end: rgba(0, 0, 0, 1);
+}

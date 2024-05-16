@@ -1,0 +1,49 @@
+
+:root {
+
+	/*
+	# Black */
+	--ss-transparent-black-0000: rgba(0, 0, 0, .0);
+	--ss-transparent-black-0001: rgba(0, 0, 0, .01);
+	--ss-transparent-black-0002: rgba(0, 0, 0, .02);
+	--ss-transparent-black-0003: rgba(0, 0, 0, .03);
+	--ss-transparent-black-0004: rgba(0, 0, 0, .04);
+	--ss-transparent-black-0005: rgba(0, 0, 0, .05);
+	--ss-transparent-black-0006: rgba(0, 0, 0, .06);
+	--ss-transparent-black-0007: rgba(0, 0, 0, .07);
+	--ss-transparent-black-0008: rgba(0, 0, 0, .08);
+	--ss-transparent-black-0009: rgba(0, 0, 0, .09);
+	--ss-transparent-black-0010: rgba(0, 0, 0, .1);
+	--ss-transparent-black-0011: rgba(0, 0, 0, .11);
+	--ss-transparent-black-0012: rgba(0, 0, 0, .12);
+	--ss-transparent-black-0013: rgba(0, 0, 0, .13);
+	--ss-transparent-black-0014: rgba(0, 0, 0, .14);
+	--ss-transparent-black-0015: rgba(0, 0, 0, .15);
+
+
+	--ss-transparent-black-0020: rgba(0, 0, 0, .2);
+	--ss-transparent-black-0030: rgba(0, 0, 0, .3);
+	--ss-transparent-black-0040: rgba(0, 0, 0, .4);
+	--ss-transparent-black-0050: rgba(0, 0, 0, .5);
+	--ss-transparent-black-0060: rgba(0, 0, 0, .6);
+	--ss-transparent-black-0070: rgba(0, 0, 0, .7);
+	--ss-transparent-black-0080: rgba(0, 0, 0, .8);
+	
+
+	--ss-transparent-black-0085: rgba(0, 0, 0, .85);
+	--ss-transparent-black-0086: rgba(0, 0, 0, .86);
+	--ss-transparent-black-0087: rgba(0, 0, 0, .87);
+	--ss-transparent-black-0088: rgba(0, 0, 0, .88);
+	--ss-transparent-black-0089: rgba(0, 0, 0, .89);
+	--ss-transparent-black-0090: rgba(0, 0, 0, .9);
+	--ss-transparent-black-0091: rgba(0, 0, 0, .91);
+	--ss-transparent-black-0092: rgba(0, 0, 0, .92);
+	--ss-transparent-black-0093: rgba(0, 0, 0, .93);
+	--ss-transparent-black-0094: rgba(0, 0, 0, .94);
+	--ss-transparent-black-0095: rgba(0, 0, 0, .95);
+	--ss-transparent-black-0096: rgba(0, 0, 0, .96);
+	--ss-transparent-black-0097: rgba(0, 0, 0, .97);
+	--ss-transparent-black-0098: rgba(0, 0, 0, .98);
+	--ss-transparent-black-0099: rgba(0, 0, 0, .99);
+	--ss-transparent-black-0100: rgba(0, 0, 0, 1);
+}

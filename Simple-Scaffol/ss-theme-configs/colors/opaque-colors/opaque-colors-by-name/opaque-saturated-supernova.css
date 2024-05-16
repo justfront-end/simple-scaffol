@@ -1,0 +1,32 @@
+:root {
+
+	/* Base color */
+	--ss-supernova: #f3c600;
+
+	/* 
+	# Saturation (S+100_L+100)(S+100_L-100) */
+	--ss-opaque-saturated-supernova-000: #ffffff;
+	--ss-opaque-saturated-supernova-001: #fffae4;
+	--ss-opaque-saturated-supernova-002: #fff5ca;
+	--ss-opaque-saturated-supernova-003: #fff0ae;
+	--ss-opaque-saturated-supernova-004: #ffeb94;
+	--ss-opaque-saturated-supernova-005: #ffe579;
+	--ss-opaque-saturated-supernova-006: #ffe15f;
+	--ss-opaque-saturated-supernova-007: #ffdb44;
+	--ss-opaque-saturated-supernova-008: #ffd729;
+	--ss-opaque-saturated-supernova-009: #ffd20e;
+	--ss-opaque-saturated-supernova-010: #f3c600; /* Base */
+	--ss-opaque-saturated-supernova-011: #dbb200;
+	--ss-opaque-saturated-supernova-012: #c29e00;
+	--ss-opaque-saturated-supernova-013: #ab8a00;
+	--ss-opaque-saturated-supernova-014: #927700;
+	--ss-opaque-saturated-supernova-015: #7a6300;
+	--ss-opaque-saturated-supernova-016: #614f00;
+	--ss-opaque-saturated-supernova-017: #493c00;
+	--ss-opaque-saturated-supernova-018: #312800;
+	--ss-opaque-saturated-supernova-019: #191400;
+	--ss-opaque-saturated-supernova-020: #000000;
+
+}
+
+

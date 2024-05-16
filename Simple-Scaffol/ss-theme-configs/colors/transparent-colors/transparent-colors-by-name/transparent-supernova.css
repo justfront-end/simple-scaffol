@@ -1,0 +1,21 @@
+
+:root {
+	/*
+		Supernova
+		243, 198, 0
+	*/
+	--ss-transparent-supernova-0000: rgba(243, 198, 0, .0);
+
+	--ss-transparent-supernova-0003: rgba(243, 198, 0, .03);
+
+	--ss-transparent-supernova-0010: rgba(243, 198, 0, .1);
+	--ss-transparent-supernova-0020: rgba(243, 198, 0, .2);
+	--ss-transparent-supernova-0030: rgba(243, 198, 0, .3);
+	--ss-transparent-supernova-0040: rgba(243, 198, 0, .4);
+	--ss-transparent-supernova-0050: rgba(243, 198, 0, .5);
+	--ss-transparent-supernova-0060: rgba(243, 198, 0, .6);
+	--ss-transparent-supernova-0070: rgba(243, 198, 0, .7);
+	--ss-transparent-supernova-0080: rgba(243, 198, 0, .8);
+	--ss-transparent-supernova-0090: rgba(243, 198, 0, .9);
+	--ss-transparent-supernova-0100: rgba(243, 198, 0, 1);
+}

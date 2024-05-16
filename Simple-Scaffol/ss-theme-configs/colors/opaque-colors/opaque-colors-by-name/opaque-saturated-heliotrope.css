@@ -1,0 +1,49 @@
+:root {
+
+	/* Base color */
+	--ss-heliotrope: #e07cff;
+
+	/* 
+	# Saturation (S+100_L+100)(S+100_L-100) */
+	--ss-opaque-saturated-heliotrope-000: #ffffff;
+	--ss-opaque-saturated-heliotrope-001: #fcf2ff;
+	--ss-opaque-saturated-heliotrope-002: #f9e5ff;
+	--ss-opaque-saturated-heliotrope-003: #f6d7ff;
+	--ss-opaque-saturated-heliotrope-004: #f3cbff;
+	--ss-opaque-saturated-heliotrope-005: #efbdff;
+	--ss-opaque-saturated-heliotrope-006: #ecb0ff;
+	--ss-opaque-saturated-heliotrope-007: #e9a3ff;
+	--ss-opaque-saturated-heliotrope-008: #e696ff;
+	--ss-opaque-saturated-heliotrope-009: #e289ff;
+	--ss-opaque-saturated-heliotrope-010: #e07cff; /* Base */
+	--ss-opaque-saturated-heliotrope-011: #cd6aec;
+	--ss-opaque-saturated-heliotrope-012: #b956d8;
+	--ss-opaque-saturated-heliotrope-013: #a643c6;
+	--ss-opaque-saturated-heliotrope-014: #9330b3;
+	--ss-opaque-saturated-heliotrope-015: #801da0;
+	--ss-opaque-saturated-heliotrope-016: #6e0b8c;
+	--ss-opaque-saturated-heliotrope-017: #580072;
+	--ss-opaque-saturated-heliotrope-018: #3a004c;
+	--ss-opaque-saturated-heliotrope-019: #1e0027;
+	--ss-opaque-saturated-heliotrope-020: #000000;
+
+
+
+	/* This works, but it doesn't result in what you want. It works, but then has it's own dilemmas. 
+		The lightness (L) you still need to figure out. And for some reason, it doesn't really 
+		give the same results that I'm seeing in Photoshop.
+	*/
+	/*
+	--ss-base-blue: 250, 80%;
+	--ss-opaque-dark-blue: hsla(var(--ss-base-blue), 35%, 100%);
+	*/
+
+	/*
+		H     S    L     A
+	:hsla( 120, 100%, 50%, 0.3 );
+	*/
+
+
+}
+
+

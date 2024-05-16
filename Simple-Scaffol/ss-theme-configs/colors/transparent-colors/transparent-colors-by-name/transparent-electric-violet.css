@@ -1,0 +1,21 @@
+
+:root {
+	/*
+		Electric Violet
+		85, 51, 255
+	*/
+	--ss-transparent-electric-violet-0000: rgba(85, 51, 255, .0);
+
+	--ss-transparent-electric-violet-0003: rgba(85, 51, 255, .03);
+
+	--ss-transparent-electric-violet-0010: rgba(85, 51, 255, .1);
+	--ss-transparent-electric-violet-0020: rgba(85, 51, 255, .2);
+	--ss-transparent-electric-violet-0030: rgba(85, 51, 255, .3);
+	--ss-transparent-electric-violet-0040: rgba(85, 51, 255, .4);
+	--ss-transparent-electric-violet-0050: rgba(85, 51, 255, .5);
+	--ss-transparent-electric-violet-0060: rgba(85, 51, 255, .6);
+	--ss-transparent-electric-violet-0070: rgba(85, 51, 255, .7);
+	--ss-transparent-electric-violet-0080: rgba(85, 51, 255, .8);
+	--ss-transparent-electric-violet-0090: rgba(85, 51, 255, .9);
+	--ss-transparent-electric-violet-0100: rgba(85, 51, 255, 1);
+}

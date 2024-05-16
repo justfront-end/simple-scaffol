@@ -1,0 +1,30 @@
+@import "colors/opaque-colors/opaque-black-white-scale.css";
+@import "colors/transparent-colors/transparent-black-scale.css";
+
+
+/* Note: 
+	Defaults for the light/dark mode for Simple Scaffol
+	are for a light background with dark text.
+*/
+
+:root {
+
+	--simple-scaffol-opaque-shade-0: var(--ss-opaque-black-white-0100);
+	--simple-scaffol-opaque-shade-1: var(--ss-opaque-black-white-0098);
+	--simple-scaffol-opaque-shade-2: var(--ss-opaque-black-white-0097);
+	--simple-scaffol-opaque-shade-3: var(--ss-opaque-black-white-0090);
+	--simple-scaffol-opaque-shade-4: var(--ss-opaque-black-white-0080);
+	--simple-scaffol-opaque-shade-5: var(--ss-opaque-black-white-0070);
+
+	--simple-scaffol-transparent-shade-0: var(--ss-transparent-black-0000);
+	--simple-scaffol-transparent-shade-1: var(--ss-transparent-black-0003);
+	--simple-scaffol-transparent-shade-2: var(--ss-transparent-black-0006);
+	--simple-scaffol-transparent-shade-3: var(--ss-transparent-black-0010);
+	--simple-scaffol-transparent-shade-4: var(--ss-transparent-black-0020);
+	--simple-scaffol-transparent-shade-5: var(--ss-transparent-black-0030);
+
+
+	/* */
+
+	
+}

@@ -1,0 +1,58 @@
+
+:root {
+
+	/*
+	# Black and White */
+
+	/* Black */
+	--ss-opaque-black-white-0000: hsl(0, 0%, 0%);
+	--ss-opaque-black-white-0001: hsl(0, 0%, 1%);
+	--ss-opaque-black-white-0002: hsl(0, 0%, 2%);
+	--ss-opaque-black-white-0003: hsl(0, 0%, 3%);
+	--ss-opaque-black-white-0004: hsl(0, 0%, 4%);
+	--ss-opaque-black-white-0005: hsl(0, 0%, 5%);
+	--ss-opaque-black-white-0006: hsl(0, 0%, 6%);
+	--ss-opaque-black-white-0007: hsl(0, 0%, 7%);
+	--ss-opaque-black-white-0008: hsl(0, 0%, 8%);
+	--ss-opaque-black-white-0009: hsl(0, 0%, 9%);
+	--ss-opaque-black-white-0010: hsl(0, 0%, 10%);
+	--ss-opaque-black-white-0011: hsl(0, 0%, 11%);
+	--ss-opaque-black-white-0012: hsl(0, 0%, 12%);
+	--ss-opaque-black-white-0013: hsl(0, 0%, 13%);
+	--ss-opaque-black-white-0014: hsl(0, 0%, 14%);
+	--ss-opaque-black-white-0015: hsl(0, 0%, 15%);
+
+	--ss-opaque-black-white-0016: hsl(0, 0%, 16%);
+	--ss-opaque-black-white-0017: hsl(0, 0%, 17%);
+	--ss-opaque-black-white-0018: hsl(0, 0%, 18%);
+	--ss-opaque-black-white-0019: hsl(0, 0%, 19%);
+	
+
+
+	--ss-opaque-black-white-0020: hsl(0, 0%, 20%);
+	--ss-opaque-black-white-0030: hsl(0, 0%, 30%);
+	--ss-opaque-black-white-0040: hsl(0, 0%, 40%);
+	--ss-opaque-black-white-0050: hsl(0, 0%, 50%);
+	--ss-opaque-black-white-0060: hsl(0, 0%, 60%);
+	--ss-opaque-black-white-0070: hsl(0, 0%, 70%);
+	--ss-opaque-black-white-0080: hsl(0, 0%, 80%);
+
+
+	--ss-opaque-black-white-0085: hsl(0, 0%, 85%);
+	--ss-opaque-black-white-0086: hsl(0, 0%, 86%);
+	--ss-opaque-black-white-0087: hsl(0, 0%, 87%);
+	--ss-opaque-black-white-0088: hsl(0, 0%, 88%);
+	--ss-opaque-black-white-0089: hsl(0, 0%, 89%);
+	--ss-opaque-black-white-0090: hsl(0, 0%, 90%);
+	--ss-opaque-black-white-0091: hsl(0, 0%, 91%);
+	--ss-opaque-black-white-0092: hsl(0, 0%, 92%);
+	--ss-opaque-black-white-0093: hsl(0, 0%, 93%);
+	--ss-opaque-black-white-0094: hsl(0, 0%, 94%);
+	--ss-opaque-black-white-0095: hsl(0, 0%, 95%);
+	--ss-opaque-black-white-0096: hsl(0, 0%, 96%);
+	--ss-opaque-black-white-0097: hsl(0, 0%, 97%);
+	--ss-opaque-black-white-0098: hsl(0, 0%, 98%);
+	--ss-opaque-black-white-0099: hsl(0, 0%, 99%);
+	--ss-opaque-black-white-0100: hsl(0, 0%, 100%);
+	/* White */
+}

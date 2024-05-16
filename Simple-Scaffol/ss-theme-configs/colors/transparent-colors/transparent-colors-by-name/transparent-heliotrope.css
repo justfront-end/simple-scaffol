@@ -1,0 +1,21 @@
+
+:root {
+	/*
+		Heliotrope
+		224, 124, 255
+	*/
+	--ss-transparent-heliotrope-0000: rgba(224, 124, 255, .0);
+
+	--ss-transparent-heliotrope-0003: rgba(224, 124, 255, .03);
+
+	--ss-transparent-heliotrope-0010: rgba(224, 124, 255, .1);
+	--ss-transparent-heliotrope-0020: rgba(224, 124, 255, .2);
+	--ss-transparent-heliotrope-0030: rgba(224, 124, 255, .3);
+	--ss-transparent-heliotrope-0040: rgba(224, 124, 255, .4);
+	--ss-transparent-heliotrope-0050: rgba(224, 124, 255, .5);
+	--ss-transparent-heliotrope-0060: rgba(224, 124, 255, .6);
+	--ss-transparent-heliotrope-0070: rgba(224, 124, 255, .7);
+	--ss-transparent-heliotrope-0080: rgba(224, 124, 255, .8);
+	--ss-transparent-heliotrope-0090: rgba(224, 124, 255, .9);
+	--ss-transparent-heliotrope-0100: rgba(224, 124, 255, 1);
+}

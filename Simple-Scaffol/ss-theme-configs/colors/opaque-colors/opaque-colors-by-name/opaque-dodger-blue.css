@@ -1,0 +1,30 @@
+:root {
+
+	/* Base color */
+	--ss-dodger-blue: #1d70f6;
+
+	--ss-opaque-dodger-blue-000: #ffffff;
+	--ss-opaque-dodger-blue-001: #e8f0fe;
+	--ss-opaque-dodger-blue-002: #d2e2fd;
+	--ss-opaque-dodger-blue-003: #bbd4fc;
+	--ss-opaque-dodger-blue-004: #a5c6fb;
+	--ss-opaque-dodger-blue-005: #8eb7fa;
+	--ss-opaque-dodger-blue-006: #77a9fa;
+	--ss-opaque-dodger-blue-007: #609bf9;
+	--ss-opaque-dodger-blue-008: #4a8df8;
+	--ss-opaque-dodger-blue-009: #337ef7;
+	--ss-opaque-dodger-blue-010: #1d70f6; /* Base */
+	--ss-opaque-dodger-blue-011: #1a65de;
+	--ss-opaque-dodger-blue-012: #175ac5;
+	--ss-opaque-dodger-blue-013: #144fad;
+	--ss-opaque-dodger-blue-014: #114394;
+	--ss-opaque-dodger-blue-015: #0f387b;
+	--ss-opaque-dodger-blue-016: #0c2d62;
+	--ss-opaque-dodger-blue-017: #09224a;
+	--ss-opaque-dodger-blue-018: #061631;
+	--ss-opaque-dodger-blue-019: #030b19;
+	--ss-opaque-dodger-blue-020: #000000;
+
+}
+
+

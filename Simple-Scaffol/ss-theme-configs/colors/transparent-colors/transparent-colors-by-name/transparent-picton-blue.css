@@ -1,0 +1,21 @@
+
+:root {
+	/*
+		Picton Blue
+		82, 199, 243
+	*/
+	--ss-transparent-picton-blue-0000: rgba(82, 199, 243, .0);
+
+	--ss-transparent-picton-blue-0003: rgba(82, 199, 243, .03);
+
+	--ss-transparent-picton-blue-0010: rgba(82, 199, 243, .1);
+	--ss-transparent-picton-blue-0020: rgba(82, 199, 243, .2);
+	--ss-transparent-picton-blue-0030: rgba(82, 199, 243, .3);
+	--ss-transparent-picton-blue-0040: rgba(82, 199, 243, .4);
+	--ss-transparent-picton-blue-0050: rgba(82, 199, 243, .5);
+	--ss-transparent-picton-blue-0060: rgba(82, 199, 243, .6);
+	--ss-transparent-picton-blue-0070: rgba(82, 199, 243, .7);
+	--ss-transparent-picton-blue-0080: rgba(82, 199, 243, .8);
+	--ss-transparent-picton-blue-0090: rgba(82, 199, 243, .9);
+	--ss-transparent-picton-blue-0100: rgba(82, 199, 243, 1);
+}

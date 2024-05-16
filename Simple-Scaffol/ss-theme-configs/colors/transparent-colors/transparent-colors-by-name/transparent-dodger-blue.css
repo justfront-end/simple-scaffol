@@ -1,0 +1,21 @@
+
+:root {
+	/*
+		Dodger Blue
+		29, 112, 246
+	*/
+	--ss-transparent-dodger-blue-0000: rgba(29, 112, 246, .0);
+
+	--ss-transparent-dodger-blue-0003: rgba(29, 112, 246, .03);
+
+	--ss-transparent-dodger-blue-0010: rgba(29, 112, 246, .1);
+	--ss-transparent-dodger-blue-0020: rgba(29, 112, 246, .2);
+	--ss-transparent-dodger-blue-0030: rgba(29, 112, 246, .3);
+	--ss-transparent-dodger-blue-0040: rgba(29, 112, 246, .4);
+	--ss-transparent-dodger-blue-0050: rgba(29, 112, 246, .5);
+	--ss-transparent-dodger-blue-0060: rgba(29, 112, 246, .6);
+	--ss-transparent-dodger-blue-0070: rgba(29, 112, 246, .7);
+	--ss-transparent-dodger-blue-0080: rgba(29, 112, 246, .8);
+	--ss-transparent-dodger-blue-0090: rgba(29, 112, 246, .9);
+	--ss-transparent-dodger-blue-0100: rgba(29, 112, 246, 1);
+}

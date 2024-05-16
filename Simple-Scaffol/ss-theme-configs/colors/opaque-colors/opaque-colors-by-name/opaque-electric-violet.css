@@ -1,0 +1,30 @@
+:root {
+
+	/* Base color */
+	--ss-electric-violet: #5533ff;
+
+	--ss-opaque-electric-violet-000: #ffffff;
+	--ss-opaque-electric-violet-001: #eeeaff;
+	--ss-opaque-electric-violet-002: #ddd6ff;
+	--ss-opaque-electric-violet-003: #ccc1ff;
+	--ss-opaque-electric-violet-004: #bbadff;
+	--ss-opaque-electric-violet-005: #aa99ff;
+	--ss-opaque-electric-violet-006: #9985ff;
+	--ss-opaque-electric-violet-007: #8870ff;
+	--ss-opaque-electric-violet-008: #775cff;
+	--ss-opaque-electric-violet-009: #6647ff;
+	--ss-opaque-electric-violet-010: #5533ff; /* Base */
+	--ss-opaque-electric-violet-011: #4d2ee6;
+	--ss-opaque-electric-violet-012: #4429cc;
+	--ss-opaque-electric-violet-013: #3c24b3;
+	--ss-opaque-electric-violet-014: #331f99;
+	--ss-opaque-electric-violet-015: #2b1a80;
+	--ss-opaque-electric-violet-016: #221466;
+	--ss-opaque-electric-violet-017: #1a0f4d;
+	--ss-opaque-electric-violet-018: #110a33;
+	--ss-opaque-electric-violet-019: #09051a;
+	--ss-opaque-electric-violet-020: #000000;
+
+}
+
+
